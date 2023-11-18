@@ -1,4 +1,4 @@
-## The Primeagean Data Structures and Algorithms course
+# The Primeagean Data Structures and Algorithms course
 
 Scala implementing while following along with the course for fun.
 
