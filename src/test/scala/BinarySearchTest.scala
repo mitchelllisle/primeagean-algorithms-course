@@ -13,13 +13,13 @@ class BinarySearchTest extends AnyFlatSpec {
     assert(result)
   }
 
-//  "Given a value to find that does not exist in an array, it" should "return false" in {
-//    val values = (1 to 10).toArray
-//    val lo = 1
-//    val hi = 10
-//
-//    val result = BinarySearch(values, lo, hi)
-//
-//    assert(!result)
-//  }
+  "Given a value to find that does not exist in an array, it" should "return false" in {
+    val values = (1 to 10).toArray
+    val lo = 1
+    val hi = 10
+
+    val result = BinarySearch(values, lo, hi)
+
+    assert(!result)
+  }
 }
