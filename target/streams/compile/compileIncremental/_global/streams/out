@@ -1,33 +1,20 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 4 products, 2 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/LinearSearch.scala, ${BASE}/src/main/scala/BinarySearch.scala, ${BASE}/src/main/scala/Main.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/BinarySearch.scala), removed = Set(), changed = Set(${BASE}/src/main/scala/LinearSearch.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/src/main/scala/BinarySearch.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/LinearSearch.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(io.github.mitchelllisle.LinearSearch)[0m
-[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(io.github.mitchelllisle.LinearSearch)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/BinarySearch.scala, ${BASE}/src/main/scala/LinearSearch.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: io.github.mitchelllisle.LinearSearch[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/LinearSearch.scala, ${BASE}/src/main/scala/BinarySearch.scala, ${BASE}/src/main/scala/Main.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 3 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
 [0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /Users/thrillhouse/Documents/learning/primeagean-algorithms-course/target/scala-2.13/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /Users/thrillhouse/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala2-sbt-bridge/2.13.12/scala2-sbt-bridge-2.13.12.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6ff23114 for Scala compiler version 2.13.12[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 58421b17 for Scala compiler version 2.13.12[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/thrillhouse/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/thrillhouse/Documents/learning/primeagean-algorithms-course/target/scala-2.13/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.409375 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 1.385724375 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

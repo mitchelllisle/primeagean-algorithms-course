@@ -1,20 +1,18 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(io.github.mitchelllisle.BinarySearchTest, org.scalatest.tools.Framework$$anon$1@164cf73b, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(io.github.mitchelllisle.LinearSearchTest, org.scalatest.tools.Framework$$anon$1@164cf73b, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(io.github.mitchelllisle.LinearSearchTest, org.scalatest.tools.Framework$$anon$1@37ffdc93, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(io.github.mitchelllisle.BinarySearchTest, org.scalatest.tools.Framework$$anon$1@37ffdc93, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mLinearSearchTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mRunning linear sort with valid input[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return the value we're asking for[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mRunning linear sort with missing value[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return -1[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mBinarySearchTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mGiven a value to find that exists in an array, it[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return true[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mGiven a value to find that does not exist in an array, it[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m- should return false *** FAILED ***[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m  result was true (BinarySearchTest.scala:23)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 142 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 133 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 1, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	io.github.mitchelllisle.LinearSearchTest[0m
