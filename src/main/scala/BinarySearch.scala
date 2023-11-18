@@ -5,6 +5,6 @@ object BinarySearch {
    *
    */
   def apply(values: Array[Int], lo: Int, hi: Int): Boolean = {
-
+    true
   }
 }
