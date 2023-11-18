@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(io.github.mitchelllisle.LinearSearchTest, org.scalatest.tools.Framework$$anon$1@10c5648b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLinearSearchTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRunning linear sort with valid input[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the value we're asking for[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRunning linear sort with missing value[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return -1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 135 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io.github.mitchelllisle.LinearSearchTest[0m
