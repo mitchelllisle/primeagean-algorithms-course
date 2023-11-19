@@ -10,11 +10,9 @@ object LinearSearch {
    * @param needle   the value you're looking for in the haystack
    */
   def apply(haystack: Array[Int], needle: Int): Boolean = {
-    for (i <- haystack) {
-      if (i == needle) {
-        return true
-      }
+    haystack.indices.find(i => haystack(i) == needle) match {
+      case Some(_) => true
+      case None => false
     }
-    false
   }
 }
