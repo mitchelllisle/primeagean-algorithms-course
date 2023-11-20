@@ -9,6 +9,6 @@ class BubbleSortTest extends AnyFlatSpec {
     val sortedValues = BubbleSort(unsortedValues)
     assert(sortedValues.length == unsortedValues.length)
 
-    sortedValues.indices.map(v => assert(sortedValues(v) < sortedValues(v + 1)))
+    sortedValues.init.indices.map(v => assert(sortedValues(v) < sortedValues(v + 1)))
   }
 }
