@@ -25,8 +25,14 @@ class LinkedListTest extends AnyFlatSpec {
     list.insert(1)
     list.insert(2)
 
-    list.delete(1)
+    list.delete(2)
     val nodes = list.collect()
     assert(nodes.length == 1)
+  }
+
+  "deleting a node that doesn't exist" should "return false" in {
+    val list = new LinkedList[Int]
+    val deleted = list.delete(1)
+    assert(!deleted)
   }
 }
