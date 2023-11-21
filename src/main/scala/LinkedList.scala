@@ -11,7 +11,7 @@ class LinkedList[T] {
     head = Some(newNode)
   }
 
-  def deleteValue(value: T): Boolean = {
+  def delete(value: T): Boolean = {
     var current = head
     var previous: Option[ListNode[T]] = None
 

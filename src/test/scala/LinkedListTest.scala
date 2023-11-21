@@ -15,17 +15,17 @@ class LinkedListTest extends AnyFlatSpec {
     val list = new LinkedList[Int]
     list.insert(1)
 
-    list.deleteValue(1)
+    list.delete(1)
     val nodes = list.collect()
     assert(nodes.isEmpty)
   }
 
-  "deleting a node with other nodes" should "make a linked list with n-1 nodes" in {
+  "deleting a node with multiple nodes" should "make a linked list with n-1 nodes" in {
     val list = new LinkedList[Int]
     list.insert(1)
     list.insert(2)
 
-    list.deleteValue(1)
+    list.delete(1)
     val nodes = list.collect()
     assert(nodes.length == 1)
   }
