@@ -6,7 +6,7 @@ case class ListNode[T](var value: T, var next: Option[ListNode[T]] = None)
 class LinkedList[T] {
   private var head: Option[ListNode[T]] = None
 
-  def insertAtFront(value: T): Unit = {
+  def insert(value: T): Unit = {
     val newNode = new ListNode[T](value, head)
     head = Some(newNode)
   }
