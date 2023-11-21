@@ -28,4 +28,11 @@ class QueueTest extends AnyFlatSpec {
 
     assert(dequed.get == 1)
   }
-}
+
+  "Dequeing an empty queue" should "return None" in {
+    val q = new Queue[Int]
+    val dequed = q.deque()
+
+    assert(dequed.isEmpty)
+  }
+ }
