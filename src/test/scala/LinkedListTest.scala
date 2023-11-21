@@ -22,12 +22,11 @@ class LinkedListTest extends AnyFlatSpec {
 
   "deleting a node with multiple nodes" should "make a linked list with n-1 nodes" in {
     val list = new LinkedList[Int]
-    list.insert(1)
-    list.insert(2)
+    (1 to 5).foreach(list.insert)
 
-    list.delete(2)
+    list.delete(3)
     val nodes = list.collect()
-    assert(nodes.length == 1)
+    assert(nodes.length == 4)
   }
 
   "deleting a node that doesn't exist" should "return false" in {
